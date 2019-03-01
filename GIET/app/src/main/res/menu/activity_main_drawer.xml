@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_fb"
+                android:icon="@drawable/fb"
+                android:title="Facebook"/>
+        <item
+                android:id="@+id/nav_insta"
+                android:icon="@drawable/insta"
+                android:title="Instagram"/>
+        <item
+                android:id="@+id/nav_git"
+                android:icon="@drawable/git"
+                android:title="GitHub"/>
+        <item
+                android:id="@+id/nav_linkedin"
+                android:icon="@drawable/li"
+                android:title="LinkedIn"/>
+        <item
+                android:id="@+id/nav_whatsapp"
+                android:icon="@drawable/whatsapp"
+                android:title="WhatsApp"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:title="Share"/>
+            <item
+                    android:id="@+id/nav_email"
+                    android:icon="@drawable/ic_email_black_24dp"
+                    android:title="Email"/>
+            <item
+                    android:id="@+id/nav_call"
+                    android:icon="@drawable/ic_call_black_24dp"
+                    android:title="Call"/>
+        </menu>
+    </item>
+
+</menu>

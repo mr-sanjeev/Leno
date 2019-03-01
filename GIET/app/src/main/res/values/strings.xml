@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Giet</string>
+    <string-array name="Branch">
+        <item>--select--</item>
+        <item>AEI</item>
+        <item>ECE</item>
+        <item>CSE</item>
+        <item>MECH</item>
+        <item>CIVIL</item>
+        <item>BIOTECH</item>
+        <item>EE</item>
+        <item>EEE</item>
+        <item>CHEMICAL</item>
+    </string-array>
+    <string-array name="Semester">
+        <item>--select--</item>
+        <item>1ST</item>
+        <item>2ND</item>
+        <item>3RD</item>
+        <item>4TH</item>
+        <item>5TH</item>
+        <item>6TH</item>
+        <item>7TH</item>
+        <item>8TH</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_header_desc">Navigation header</string>
+</resources>
